@@ -32,6 +32,7 @@ app.get("/api/photos/:photoId", getPhotoFromDb);
 app.get("/api/photos/tag/search", searchByTag);
 app.get("/api/search-history", getSearchHistory);
 
-app.listen(3000, () => {
-	console.log(`Server is started at port 3000.`);
+const port = 3000;
+app.listen(port, () => {
+	console.log(`Server is started at port ${port}.`);
 });
