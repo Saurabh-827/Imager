@@ -9,7 +9,7 @@ const {
 } = require("../validations/userValidation");
 
 const { doesUserExist } = require("../services/userService");
-const axiosInstance = require("../lib/axios.lib");
+const { axiosInstance } = require("../lib/axios.lib");
 
 //step 3: Create a controller function named createNewUser
 const createNewUser = async (req, res) => {
