@@ -13,6 +13,12 @@
 		}
 	],
 	"env": {
-		"NODE_VERSION": "18.x"
+		"NODE_VERSION": "18.x",
+		"DB_USER": "@db_user",
+		"DB_PASSWORD": "@db_password",
+		"DB_NAME": "@db_name",
+		"DB_HOST": "@db_host",
+		"DB_PORT": "@db_port",
+		"UNSPLASH_ACCESS_KEY": "@unsplash_access_key"
 	}
 }
