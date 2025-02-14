@@ -5,8 +5,7 @@
 	"scripts": {
 		"test": "jest",
 		"start": "nodemon index.js",
-		"dev": "nodemon index.js",
-		"postinstall": "npm install"
+		"dev": "nodemon index.js"
 	},
 	"keywords": [],
 	"author": "",
