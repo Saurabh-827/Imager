@@ -1,10 +1,10 @@
 {
-	"name": "pictoria",
+	"name": "imager",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest",
-		"start": "nodemon index.js",
+		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [],

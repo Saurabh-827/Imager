@@ -133,6 +133,7 @@ describe("User Controller's createNewUser", () => {
 		user.create.mockResolvedValue({
 			username: "newUser",
 			email: "newuser@example.com",
+			save: jest.fn(),
 		});
 		isRequestBodyValid.mockReturnValue(true);
 		isEmailValid.mockReturnValue(true);
